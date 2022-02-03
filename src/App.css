@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 6px;
+}
+
+.size-display {
+  position: absolute;
+  font-size: 12px;
+  top: 10px;
+  left: 10px;
+}
+
+.render-counter {
+  display: inline-block;
+  border: 2px solid red;
+  padding: 12px;
+  margin: 6px;
+}
+
+.child-of-render-counter {
+  display: inline-block;
+  border: 2px solid green;
+  padding: 12px;
+  margin: 6px;
+}
+
+.our-custom-input {
+  background-color: hotpink;
+  border: 6px solid turquoise;
+}
+
+.our-custom-input-2 {
+  padding: 10px;
+  background-color: turquoise;
+  border: 6px solid hotpink;
+}
