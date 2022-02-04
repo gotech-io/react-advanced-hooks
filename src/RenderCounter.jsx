@@ -19,7 +19,7 @@ const RenderCounter = () => {
 
 const ChildOfRenderCounter = () => {
   const [count, setCount] = useState(0);
-  const renderCounter = useRef(0);
+  const renderCounter = useRef(1);
 
   useEffect(() => {
     renderCounter.current += 1;
