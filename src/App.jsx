@@ -19,6 +19,10 @@ const App = () => {
       <div>
         <CounterReducer initialCount={0} />
         <hr />
+        <a href="https://codesandbox.io/s/useeffect-flicker-example-forked-xc7ry">
+          useEffect Flicker Demo
+        </a>
+        <hr />
         <FocusInput />
         <hr />
         <FocusInputWithForwardRef />
@@ -26,10 +30,6 @@ const App = () => {
         <FocusInputWithForwardRefImperative />
         <hr />
         <RenderCounter />
-        <hr />
-        <a href="https://codesandbox.io/s/useeffect-flicker-example-forked-xc7ry">
-          useEffect Flicker Demo
-        </a>
       </div>
     </div>
   );
