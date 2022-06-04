@@ -5,6 +5,9 @@ import FocusInput from './FocusInput';
 import RenderCounter from './RenderCounter';
 import FocusInputWithForwardRef from './FocusInputWithForwardRef';
 import FocusInputWithForwardRefImperative from './FocusInputWithForwardRefImperative';
+import GetDerivedStateFromProps from './GetDerivedStateFromProps';
+import FormWithRef from './FormWithRef';
+import FormWithState from './FormWithState';
 
 import './App.css';
 
@@ -30,6 +33,12 @@ const App = () => {
         <FocusInputWithForwardRefImperative />
         <hr />
         <RenderCounter />
+        <hr />
+        <GetDerivedStateFromProps />
+        <hr />
+        <FormWithRef />
+        <hr />
+        <FormWithState />
       </div>
     </div>
   );
