@@ -1,6 +1,7 @@
 import React from 'react';
 import useWindowSize from './useWindowSize';
 import CounterReducer from './CounterReducer';
+import CounterReducerWithHook from './CounterReducerWithHook';
 import FocusInput from './FocusInput';
 import RenderCounter from './RenderCounter';
 import FocusInputWithForwardRef from './FocusInputWithForwardRef';
@@ -20,7 +21,11 @@ const App = () => {
         {innerWidth} x {innerHeight}
       </div>
       <div>
+        <u>CounterReducer.jsx</u>
         <CounterReducer initialCount={0} />
+        <hr />
+        <u>CounterReducerWithHook.jsx</u>
+        <CounterReducerWithHook initialCount={0} />
         <hr />
         <a href="https://codesandbox.io/s/useeffect-flicker-example-forked-xc7ry">
           useEffect Flicker Demo
