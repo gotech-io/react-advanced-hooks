@@ -41,8 +41,10 @@ const App = () => {
         <hr />
         <GetDerivedStateFromProps />
         <hr />
+        <u>FormWithRef.jsx</u>
         <FormWithRef />
         <hr />
+        <u>FormWithState.jsx</u>
         <FormWithState />
       </div>
     </div>
