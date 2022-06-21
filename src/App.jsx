@@ -31,14 +31,19 @@ const App = () => {
           useEffect Flicker Demo
         </a>
         <hr />
+        <u>FocusInput.jsx</u>
         <FocusInput />
         <hr />
+        <u>FocusInputWithForwardRef.jsx</u>
         <FocusInputWithForwardRef />
         <hr />
+        <u>FocusInputWithForwardRefImperative.jsx</u>
         <FocusInputWithForwardRefImperative />
         <hr />
+        <u>RenderCounter.jsx</u>
         <RenderCounter />
         <hr />
+        <u>GetDerivedStateFromProps.jsx</u>
         <GetDerivedStateFromProps />
         <hr />
         <u>FormWithRef.jsx</u>

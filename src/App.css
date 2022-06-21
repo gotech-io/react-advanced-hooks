@@ -3,6 +3,11 @@
   padding: 6px;
 }
 
+.App u {
+  display: block;
+  margin-bottom: 12px;
+}
+
 .size-display {
   position: absolute;
   font-size: 12px;
